@@ -1,0 +1,17 @@
+{"request":{"method":"POST","url":"/api/v1/villages","headers":{"Content-Type":"application/json"},"body":{"id":1,"name":"Village 1"}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/villages","headers":{"Content-Type":"application/json"},"body":{"id":2,"name":"Village 2"}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/villages","headers":{"Content-Type":"application/json"},"body":{"id":3,"name":"Village 3"}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/counters","headers":{"Content-Type":"application/json"},"body":{"id":1,"villageId":1,"address":""}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/counters","headers":{"Content-Type":"application/json"},"body":{"id":2,"villageId":1,"address":""}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/counters","headers":{"Content-Type":"application/json"},"body":{"id":3,"villageId":1,"address":""}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/counters","headers":{"Content-Type":"application/json"},"body":{"id":4,"villageId":2,"address":""}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/counters","headers":{"Content-Type":"application/json"},"body":{"id":5,"villageId":2,"address":""}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/counters","headers":{"Content-Type":"application/json"},"body":{"id":6,"villageId":2,"address":""}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/counters","headers":{"Content-Type":"application/json"},"body":{"id":7,"villageId":3,"address":""}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/counters","headers":{"Content-Type":"application/json"},"body":{"id":8,"villageId":3,"address":""}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/counters","headers":{"Content-Type":"application/json"},"body":{"id":9,"villageId":3,"address":""}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"GET","url":"/api/v1/counters/1","headers":{"Content-Type":"application/json"},"body":{}},"response":{"status_code":200,"body":{"id":1,"villageName":"Village 1"},"headers":{}}}
+{"request":{"method":"GET","url":"/api/v1/counters/4","headers":{"Content-Type":"application/json"},"body":{}},"response":{"status_code":200,"body":{"id":4,"villageName":"Village 2"},"headers":{}}}
+{"request":{"method":"GET","url":"/api/v1/counters/9","headers":{"Content-Type":"application/json"},"body":{}},"response":{"status_code":200,"body":{"id":9,"villageName":"Village 3"},"headers":{}}}
+{"request":{"method":"DELETE","url":"/api/v1/counters?hardDelete=true","headers":{"Content-Type":"application/json"},"body":{}},"response":{"status_code":200,"body":{},"headers":{}}}
+{"request":{"method":"DELETE","url":"/api/v1/villages?hardDelete=true","headers":{"Content-Type":"application/json"},"body":{}},"response":{"status_code":200,"body":{},"headers":{}}}

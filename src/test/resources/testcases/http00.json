@@ -1,0 +1,4 @@
+{"request":{"method":"POST","url":"/api/v1/villages","headers":{"Content-Type":"application/json"},"body":{"id":1,"name":"Village 1"}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/villages","headers":{"Content-Type":"application/json"},"body":{"id":2,"name":"Village 2"}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"POST","url":"/api/v1/villages","headers":{"Content-Type":"application/json"},"body":{"id":3,"name":"Village 3"}},"response":{"status_code":201,"body":{},"headers":{}}}
+{"request":{"method":"DELETE","url":"/api/v1/villages?hardDelete=true","headers":{"Content-Type":"application/json"},"body":{}},"response":{"status_code":200,"body":{},"headers":{}}}

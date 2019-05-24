@@ -1,0 +1,3 @@
+http00.json: Create Villages -> Delete Villages
+http01.json: Create Villages -> Create Counters -> Delete Counters -> Delete Villages
+http02.json: Create Villages -> Create Counters -> Register Counter Amounts -> Verify Total Village Consumptions -> Delete Counters -> Delete Villages

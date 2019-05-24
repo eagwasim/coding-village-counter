@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.vermietet.vvecrm.VvecrmApplicationIntegrationTests" time="0.941000" tests="3" errors="0" skipped="0" failures="0">
+    <testcase name="Create Villages -> Delete Villages" classname="de.vermietet.vvecrm.VvecrmApplicationIntegrationTests" time="0.000000"/>
+    <testcase name="Create Villages -> Create Counters -> Delete Counters -> Delete Villages" classname="de.vermietet.vvecrm.VvecrmApplicationIntegrationTests" time="0.676000"/>
+    <testcase name="Create Villages -> Create Counters -> Register Amounts -> Verify Village Consumptions -> Delete Counters, Delete Villages" classname="de.vermietet.vvecrm.VvecrmApplicationIntegrationTests" time="0.265000"/>
+</testsuite>
