@@ -18,6 +18,6 @@ public class LogConsumptionImpl implements LogConsumption {
 
     @Override
     public void logConsumption(Long counterId, BigDecimal consumption) {
-
+        counterDomainGateway.logConsumption(counterId, consumption);
     }
 }

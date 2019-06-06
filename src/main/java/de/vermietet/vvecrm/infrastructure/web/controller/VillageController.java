@@ -29,7 +29,6 @@ public class VillageController {
 
     @RequestMapping(path = "/api/v1/villages", method = RequestMethod.DELETE)
     public ResponseEntity<?> deleteVillages(@RequestParam("hardDelete") boolean hardDelete) {
-        System.out.println("------------------------> HARD DELETE " + hardDelete);
         deleteVillage.deleteVillage(hardDelete);
         return new ResponseEntity<>(HttpStatus.OK);
     }

@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 @Table(name = "village_counter_log")
 @AllArgsConstructor
 @NoArgsConstructor
-public class VillageCounterLogJpaEntity extends AbstractJpaEntity<Long> {
+public class VillageCounterLogJpaEntity extends AbstractJpaEntityAutoId<Long> {
     private Long villageId;
     private Long counterId;
     private BigDecimal amount;
