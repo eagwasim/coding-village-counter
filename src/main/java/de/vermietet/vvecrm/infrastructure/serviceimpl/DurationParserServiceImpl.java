@@ -30,16 +30,22 @@ public class DurationParserServiceImpl implements DurationParserService {
         switch (timeUnit) {
             case "h":
                 startTime = LocalDateTime.now().minusHours(Long.valueOf(period));
+                break;
             case "m":
                 startTime = LocalDateTime.now().minusMinutes(Long.valueOf(period));
+                break;
             case "s":
                 startTime = LocalDateTime.now().minusSeconds(Long.valueOf(period));
+                break;
             case "mth":
                 startTime = LocalDateTime.now().minusMonths(Long.valueOf(period));
+                break;
             case "y":
                 startTime = LocalDateTime.now().minusYears(Long.valueOf(period));
+                break;
             case "w":
                 startTime = LocalDateTime.now().minusWeeks(Long.valueOf(period));
+                break;
             default:
                 startTime = LocalDateTime.now();
         }

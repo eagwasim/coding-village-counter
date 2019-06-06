@@ -26,7 +26,6 @@ public class ReportController {
 
     @RequestMapping(path = "/api/v1/reports/village/consumption", method = RequestMethod.GET)
     public ResponseEntity<?> getVillageConsumption(@RequestParam("duration") String duration) {
-        System.out.println("=------------------------> " + duration);
         Collection<VillageConsumptionReportResponse> consumptionReportResponses = getConsumptionReport.getVillageConsumptionReport(duration);
         return new ResponseEntity<>(
                 consumptionReportResponses
